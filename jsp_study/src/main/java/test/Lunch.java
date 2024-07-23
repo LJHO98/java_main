@@ -5,6 +5,8 @@ public class Lunch {
 	private int price;
 	private String restaurant;
 	
+	//public Lunch(String menu){} 이런식으로 생성자 메서드를 만들어버리면 기본 생성자 메서드가 사라져서 따로 만들어줘야된다.
+	
 	public String getMenu() {
 		return menu;
 	}

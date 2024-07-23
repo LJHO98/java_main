@@ -3,8 +3,10 @@
     
 <jsp:useBean id="lunch" class="test.Lunch" />
 <jsp:setProperty name="lunch" property="*" />
-<jsp:getProperty name="lunch" property="menu" />
-<%=lunch.getPrice() %>
+
+
+<jsp:getProperty name="lunch" property="menu" /> <br>
+<%=lunch.getPrice() %> <br>
 <% 
 	out.println(lunch.getRestaurant());
 %>

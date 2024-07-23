@@ -19,7 +19,7 @@
  --%>
  <%-- useBean 
  		id : 클래스객체의 주소를 저장할 참조 변수
- 		Music music = new Music();
+ 		Music music = new Music(); (기본 생성자 메서드 호출)
  		class : 클래스의 경로 (패키지명 포함)
  		scope : 자바빈 객체가 저장될 영역을 설정 (내장객체 중 하나)
  				page, request, session, application
