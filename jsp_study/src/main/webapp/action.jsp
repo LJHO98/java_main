@@ -48,8 +48,6 @@
 %>
 <%=music.getYear() %>
 
-<!--  -->
-
 
 <!DOCTYPE html>
 <html>
