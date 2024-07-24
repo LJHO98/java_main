@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#mainBox{
+	width:100%;
+	position:relative;
+}
+#slider{
+	background:url('https://picsum.photos/1000/300');
+	height:300px;
+}
+#recently{
+	display:flex;
+	align-items:center;
+}
+.textBox{
+	width:50%;
+	position:relative;
+	padding:20px;
+}
+.textBox h3{
+	border-bottom:1px solid #999;
+	padding:10px 0;
+}
+.textBox ul{
+	padding:10px 0;
+}
+.textBox p{
+	position:absolute;
+	right:30px;
+	top:30px;
+	cursor:pointer;
+}

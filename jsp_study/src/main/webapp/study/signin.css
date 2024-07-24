@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#signinBox{
+	width:400px;
+	margin:0 auto;
+}
+
+#loginBt{
+	width:100%;
+	border:0;
+	border-radius:10px;
+	background:#5f87ff;
+	padding:15px 0;
+}

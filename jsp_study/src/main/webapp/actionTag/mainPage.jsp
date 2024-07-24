@@ -28,7 +28,7 @@
 	<jsp:include page="header.jsp"> 
 		<jsp:param value="<%=tap%>" name="select"/>
 	</jsp:include>
-	<!-- jsp.parm을 써서 파라미터 값을 전해줄때는 </jsp:include>로 끝내고 아니면 /> 이걸로 닫아주기 -->
+	<!-- jsp.parm을 써서 파라미터 값을 전해줄때는 /jsp:include>로 끝내고 아니면 /> 이걸로 닫아주기 -->
 	
 	<div id="main">
 		<%
