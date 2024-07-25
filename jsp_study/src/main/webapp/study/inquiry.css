@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#inquiryWrap{
+	width:600px;
+	margin:70px auto;
+}
+
+.writeBt{
+	height:50px;
+}
+.writeBt a{
+	display:inline-block;
+	padding:3px 15px;
+	background:#343638;
+	color:white;
+	border-radius:10px;
+	font-size:15px;
+	margin-top:11px;
+}
+.writeBt a:hover{
+	color:#343638;
+	background:white;
+	border:1px solid #343638;
+}
+#inquiryBox{
+	border:1px solid #aaa;
+	border-radius:10px;
+	padding:20px;
+}
+#inquiryList{
+	width:100%;
+}
+#inquiryList li{ display:flex;}
+.list{
+	border-bottom:1px solid #bbb;
+	padding:15px 0;
+}
+.title{width:50%;}
+.writer{width:30%;}
+.isAnswer{width:20%;}
+.list .title{ font-weight:800;}
+
+
+

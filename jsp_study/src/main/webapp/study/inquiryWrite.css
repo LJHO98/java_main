@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+#inquiryWrap{
+	width:600px;
+	margin:70px auto;
+}
+#writeBox{
+	border:1px solid #aaa;
+	border-radius:10px;
+	padding:20px;
+	margin:20px 0;
+}
+.writeInput{
+	width:100%;
+	display:flex;
+	align-items:center;
+	font-size:17px;
+	margin-bottom:20px;
+}
+.writeInput label{
+	width:20%;
+}
+#title, #content{
+	width:80%;
+	font-size:19px;
+	padding:5px 10px;
+}
+#title{ 
+	border:0; 
+	outline: none;
+	border-bottom:1px solid #bbb;
+}
+#content{
+	border-radius:10px;
+	resize: none;
+	height:300px;
+}
+#writeBox button{
+	width:200px;
+	display:block;
+	margin:0 auto;
+	padding:7px 0;
+	border:0;
+	background:#343638;
+	color:white;
+	border-radius:10px;
+	font-size:17px; cursor:pointer;
+}
+

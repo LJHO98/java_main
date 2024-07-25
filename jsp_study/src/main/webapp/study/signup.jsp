@@ -7,7 +7,7 @@
 	<form method="post" action="signupSave.jsp">
 		<div class="joinInput">
 			<label>아이디</label>
-			<input type="text" name="userId" placeholder="이이디 입력">
+			<input type="text" name="userId" placeholder="아이디 입력">
 		</div>
 		<div class="joinInput">
 			<label>비밀번호</label>
@@ -19,7 +19,7 @@
 		</div>
 		<div class="joinInput">
 			<label>이름</label>
-			<input type="text" name="name" placeholder="이름 입력">
+			<input type="text" name="userName" placeholder="이름 입력">
 		</div>
 		<button id="joinBt">회원가입</button>
 	</form>
