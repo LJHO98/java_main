@@ -15,6 +15,13 @@
 					<th class="hit">조회수</th>
 				</tr>
 				<%
+					
+				
+				
+				
+				
+				
+				
 					for(int i=0; i<=0; i++){
 				%>
 				<tr>
