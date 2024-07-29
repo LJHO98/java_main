@@ -11,7 +11,7 @@ public class Board {
 		
 	}
 	
-	public Board(int board_id, String writer, String title, String content, int hit) {
+	public Board(int board_id, String title, String writer, String content, int hit) {
 		this.board_id = board_id;
 		this.writer = writer;
 		this.title = title;
