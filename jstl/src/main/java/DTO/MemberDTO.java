@@ -19,6 +19,10 @@ public class MemberDTO {
 		this(userId,userPassword,userEmail,userName);
 		this.memberId = id;
 	}
+	public MemberDTO(String userId, String userPassword) {
+		this.userId = userId;
+		this.userPassword = userPassword;
+	}
 	
 	
 	public int getMemberId() {
