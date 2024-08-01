@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*  board.css  */
+
+#boardWrap{
+	width:700px;
+	margin:0 auto;
+	padding:50px 0;
+}
+#boardBox{
+	width:100%;
+	padding:20px 0;
+}
+#boardList{
+	border-collapse: collapse;
+	width:100%;
+}
+#boardList .num{ width:100px; text-align:center;}
+#boardList .title{width:400px; }
+#boardList .writer{ width:100px; text-align:center; }
+#boardList .hit{width:100px; text-align:center;}
+#boardList td{ 
+	border-top:1px solid #aaa;
+	padding:7px 0;
+}
+#boardSearchBox{
+	padding:15px 0;
+}
+.boardSearch{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#word{
+	width:300px; 
+	outline: none;
+	font-size:19px;
+	padding:7px 10px;
+	border-radius:10px;
+}
+.boardSearch button{
+	border:0;
+	height:40px;
+	margin-left:15px;
+	width:100px;
+	background:#272829;
+	border-radius:10px;
+	color:white; cursor:pointer;
+}
+#boardWriteBox{
+	text-align:right;
+}
+#wrBt{
+	display:inline-block;
+	padding:10px 25px;
+	background:#596ec7;
+	color:white; border-radius:10px;
+}

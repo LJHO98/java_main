@@ -17,11 +17,12 @@ public class BoardDTO {
 		this.content = content;
 	}
 	
-	public BoardDTO(int board_id, String title, String writer, String content) {
+	public BoardDTO(int board_id, String title, String writer, String content, int hit) {
 		this.board_id = board_id;
 		this.title = title;
 		this.writer = writer;
 		this.content = content;
+		this.hit = hit;
 	}
 	
 	public int getBoard_id() {
