@@ -6,17 +6,16 @@ import dto.MemberDTO;
 
 public class BookDAO extends DBConnect{
 	public void rental(String code, String member) {
-		String bookSql = "update book set is_rental = ?";
-		String memberSql = "insert into member (membership_num, book_code) values (?, ?)";
+		String checkSql = "update book set is_rental = ?";
+		String memberSql = "update book set membership_num = ?";
 		if( check(code)) {
 			try {
-				pt = conn.prepareStatement(bookSql);
+				pt = conn.prepareStatement(checkSql);
 				pt.setBoolean(1, true);
 				pt.executeUpdate();
 				
 				pt = conn.prepareStatement(memberSql);
 				pt.setString(1, member);
-				pt.setString(2, code);
 				pt.executeUpdate();
 				
 				
